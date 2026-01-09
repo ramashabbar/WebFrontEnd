@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="shortcut icon" href="photos/logo.png" type="x-icon" />
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <img id="logo" src="photos/logo.png" alt="">
+        <a href="home.html">Home</a>
+        </nav>
+       <nav>
+            <!-- <a href="bookings.html">Bookings</a>
+            <a href="#Contacts"> Contacts</a> -->
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <div class="signup-container">
+        <div class="signup-form">
+            <h2>Create an Account</h2>
+            <form action=""  method="post">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" name="signup">Sign Up</button>
+            </form>
+            <p class="signin-link">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>
